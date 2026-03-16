@@ -1,0 +1,33 @@
+:root {
+  --accent: #ecad0a;
+  --primary: #209dd7;
+  --secondary: #753991;
+  --heading: #032147;
+  --text-muted: #888888;
+  --bg: #f4f8fd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at top right, rgba(236, 173, 10, 0.11), transparent 45%),
+    radial-gradient(circle at bottom left, rgba(32, 157, 215, 0.12), transparent 42%),
+    var(--bg);
+  color: var(--heading);
+  font-family: var(--font-geist-sans), "Segoe UI", Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
